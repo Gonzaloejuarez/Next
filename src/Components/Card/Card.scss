@@ -1,0 +1,45 @@
+.cardContainer{
+    background-color: rgb(141, 128, 128);
+    margin: 20px;
+    width: 18rem;
+    border-radius: 3rem;
+    transition: 0.6s;
+}
+.temperatura{
+    display: flex;
+    justify-content: space-around;
+}
+.temps > p {
+    color: white;
+}
+.close-x{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    cursor: pointer;
+    margin-top: 8px;
+    color: white;
+    font-size: 2rem;
+}
+.close-x:hover{
+    color: cornflowerblue;
+}
+.img-clima{
+   display: flex;
+   justify-content: center;
+   /* margin-left: 6rem;
+   width: 5rem; */
+}
+.detail{
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+.name-title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.Link{
+    text-decoration: none;
+}
