@@ -10,3 +10,7 @@ NextClima is an application in which you can see the climate of your city or you
 <p>
 <img src='./src/gifs/gif2.gif'/>
 </p>
+<h2>About Me and CV download </h2>
+<p>
+<img src="./src/gifs/gif3.gif" />
+ </p>
