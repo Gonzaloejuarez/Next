@@ -7,10 +7,34 @@
     justify-content: initial;
     align-items: center;
 }
+.imagen_clima{
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    
+}
+.NextClima{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 62rem;
+}
 .menu-bars{
     margin-left: 2rem;
     font-size: 2rem;
     background:none;
+}
+.descargar{
+    display: flex;
+/*     margin-left: 0.7rem; */
+    font-size: 1.5rem;
+    margin-right:8px;
+    margin-left: -2px;
+}
+.descargar-name{
+/*     margin-left: auto; */
 }
 .menu-bars:hover{
     box-shadow: 5px 5px 5px var(--box_shadow);
@@ -68,4 +92,34 @@
 
 span{
     margin-left: 16px;
+}
+.input-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-load{
+    width: 200px;
+    height: 35px;
+    background: $color-input ;
+    font-size: 10pt;
+    border: 2px solid white;
+    float: left;
+    color: #ffffff;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 9px;
+    margin-top: 2px;
+}
+.input-load:hover{
+    background:rgb(82, 77, 77) ;
+}
+.search{
+    cursor: pointer;
+    font-size: 20px;
+    margin: 2px 2px 2px;
+}
+.search:hover{
+    color: rgb(82, 77, 77);
 }

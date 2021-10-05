@@ -6,3 +6,8 @@
     padding: 0;
     font-family: 'Lato' , sans-serif;
 }
+
+
+body{
+    background-color: hsl(224, 47%, 62%);
+}

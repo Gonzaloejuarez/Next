@@ -1,0 +1,34 @@
+.ante-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:2rem;
+    width: auto;
+}
+.todo-container{
+    display: flex;
+    border: 2px solid rgb(5, 31, 117);
+    height: 30vh;
+    width: auto;
+    border-radius: 20px;
+    margin-top: 20rem;
+    background: hsl(212, 100%, 93%);
+}
+.name{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background: hsl(222, 100%, 10%);
+    border-radius: 1rem;
+}
+.container-datos{
+   margin-top: 1.5rem;
+}
+.datos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}

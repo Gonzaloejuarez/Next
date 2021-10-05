@@ -14,7 +14,7 @@ export const Options = [
         path: '/AboutMe',
         icon: <AiIcons.AiOutlineUser/>,
         cName : 'nav-text'
-    }
+    },
 ]
 
 

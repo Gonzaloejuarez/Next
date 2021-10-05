@@ -1,0 +1,59 @@
+.container-about{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.todo-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 400px;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+}
+.imagenSocial{
+    width: 50px;
+}
+.section-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.porfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    flex-direction: column;
+}
+.imagen-mia{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.base_imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 20px;
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

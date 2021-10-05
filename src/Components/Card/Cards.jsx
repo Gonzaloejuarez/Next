@@ -1,17 +1,18 @@
+import Nav from "../Nav/Nav"
 import Card from "./Card"
 import './Cards.scss'
-export const Cards = ({cities,onClose}) => {
-
+export const Cards = (props) => {
     return(
         <div className='cards-ever'>
-        { cities.map(c => <Card
+         
+        { props.cities.map(c => <Card
           key={c.id}
           id={c.id}
           max={c.max}
           min={c.min}
           name={c.name}
           img={c.img}
-          onClose={() => onClose(c.id)}
+          onClose={() => props.onClose(c.id)}
         /> )}
     </div>
     )

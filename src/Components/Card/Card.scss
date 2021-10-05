@@ -1,16 +1,51 @@
+@import '../../Scss/Variables.scss';
+
 .cardContainer{
     background-color: rgb(141, 128, 128);
-    margin: 20px;
+    margin:20px;
     width: 18rem;
     border-radius: 3rem;
     transition: 0.6s;
+    
+}
+/* .basedetodo{
+    margin: 1rem;
+} */
+.todoadentro{
+    display: flex;
+}
+.cardContainer{
+    box-shadow: 5px 5px 5px $box-shadow;
+    transition: 0.6s;
+    transform: scale(1.01); 
+    /* background-color:var(--secondary-color) */;
+    color: white;
+}
+.name_temperatura_temperaturas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name_temperatura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .temperatura{
     display: flex;
     justify-content: space-around;
+    margin: 1rem;
 }
+/* .todas-temperaturas{
+    display: flex;
+    flex-direction: column;
+} */
 .temps > p {
     color: white;
+}
+.temps{
+    display: flex;
+    margin: 0.5rem;
 }
 .close-x{
     display: flex;
@@ -31,6 +66,9 @@
    width: 5rem; */
 }
 .detail{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
     margin-top: 0px !important;
     padding-top: 0px !important;
 }
@@ -39,6 +77,7 @@
     display: flex;
     justify-content: center;
     text-decoration: none;
+    margin-left: 2rem;
 }
 .Link{
     text-decoration: none;
