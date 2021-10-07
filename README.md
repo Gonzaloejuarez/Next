@@ -7,6 +7,7 @@ At the beginning you will find a side bar which when you click on it will open t
 <p> 
 <img src='./src/gifs/gif1.gif'/>
 </p>
+When doing a search of your city or country you can see more details of it by clicking on its name
 <h2>Searching </h2>
 <p>
 <img src='./src/gifs/gif2.gif'/>
