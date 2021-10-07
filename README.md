@@ -1,3 +1,14 @@
+# Technologies used
+<details>
+ <summary>&#128240 <b>Technologies</b></summary><br/>
+
+<!-- BLOG-POST-LIST:START -->
+-JavaScript <br />
+-ReactJs  <br />
+-SASS  <br />
+-CSS  <br />
+</details>
+
 # NextClima
 
 NextClima is an application in which you can see the climate of your city or your country
@@ -19,13 +30,4 @@ and to finish in the NavBar you will find 3 options, one of them is home, the ot
  </p>
  
  
-# Technologies used
-<details>
- <summary>&#128240 <b>Technologies</b></summary><br/>
 
-<!-- BLOG-POST-LIST:START -->
--JavaScript <br />
--ReactJs  <br />
--SASS  <br />
--CSS  <br />
-</details>
