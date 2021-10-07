@@ -17,3 +17,6 @@ and to finish in the NavBar you will find 3 options, one of them is home, the ot
 <p>
 <img src="./src/gifs/gif3.gif" />
  </p>
+ 
+ 
+# Technologies used
