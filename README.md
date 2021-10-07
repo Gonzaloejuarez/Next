@@ -20,3 +20,12 @@ and to finish in the NavBar you will find 3 options, one of them is home, the ot
  
  
 # Technologies used
+<details>
+ <summary>&#128240 <b>Technologies</b></summary><br/>
+
+<!-- BLOG-POST-LIST:START -->
+-JavaScript <br />
+-ReactJs  <br />
+-SASS  <br />
+-CSS  <br />
+</details>
