@@ -13,7 +13,7 @@ const [user, setUser] = useState(false);
 const handleFunction = () => setUser(!user)
     return(
   
-        <IconContext.Provider value={{color : '#fff'}}>
+        <IconContext.Provider value={{color : 'black'}}>
             <div className='navbar'>
             <Link to='#' className='menu-bars' >
                 <FaIcons.FaBars onClick={handleFunction}/>
@@ -34,7 +34,7 @@ const handleFunction = () => setUser(!user)
                     {Options.map((el , index) => {
                         return(
                             <li key={index} className={el.cName}>
-                                <Link to={el.path}>
+                                <Link to={el.path} className="probando">
                                     {el.icon}
                                     <span>{el.title}</span>
                                 </Link>

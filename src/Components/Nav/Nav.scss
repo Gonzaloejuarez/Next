@@ -13,8 +13,9 @@
     width: 50px;
     
 }
+
 .NextClima{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -63,7 +64,7 @@
     height: 60px;
 }
 .nav-text a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 18px;
     width: 95%;
@@ -73,7 +74,12 @@
     padding: 0 16px;
     border-radius: 4px;
 }
-
+.nav-text > span {
+    color: black;
+}
+.color_logo{
+    color: black;
+}
 .nav-text a:hover{
     background-color: $color-hover;
 }
@@ -103,9 +109,9 @@ span{
     height: 35px;
     background: $color-input ;
     font-size: 10pt;
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     float: left;
-    color: #ffffff;
+    color: #000000;
     padding-left: 45px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;

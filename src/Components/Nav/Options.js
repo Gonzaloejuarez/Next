@@ -1,12 +1,12 @@
 import React from "react";
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
-
+import "./Nav.scss"
 export const Options = [
     {
         title: 'Home',
         path: '/',
-        icon: <AiIcons.AiFillHome />,
+        icon: <AiIcons.AiFillHome className="color_logo"/>,
         cName : 'nav-text'
     },
     {

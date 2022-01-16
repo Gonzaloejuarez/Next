@@ -9,6 +9,7 @@ import Ciudad from './Components/Detail/Cities'
 import AboutMe from './Components/About/AboutMe';
 import {Home} from './Components/Home';
 import Search from './Components/Nav/Search';
+/* import API_KEY from process.env */
 function App() {
   const [cities, setCities] = useState([]);
     function onClose(id) {
